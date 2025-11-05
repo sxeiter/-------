@@ -1,0 +1,31 @@
+:root {
+  --color-primary: #6c38cc;
+  --color-primary-hover: #5b2bb2;
+  --color-text: #fafafa;
+  --color-link-hover: #afb2bf;
+  --color-bg: #16171d;
+  --color-bg-medium: #1e1f29;
+  --color-bg-light: #2e2d3d;
+  --color-stroke: #405064;
+  --color-gradient: linear-gradient(
+    93.33deg,
+    #d77be6 9.26%,
+    #be63e6 42.32%,
+    #6c38cc 104.58%
+  )
+
+  --border-8: 8px;
+  --layout-width: 1172px;
+}
+
+body {
+  background: var(--color-bg);
+  margin: 0;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
